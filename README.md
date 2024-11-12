@@ -1,6 +1,7 @@
 
 # ITCS371-Rational
 An example Java project for the JUnit exercise of ITCS371 Introduction to Software Engineering class.
+
 ไฟล์นี้ประกอบด้วยรายละเอียดเกี่ยวกับ test suites ที่ถูกสร้างขึ้นในคลาส `RationalTest` เพื่อทดสอบพฤติกรรมต่างๆ ของคลาส `Rational`
 
 ## รายละเอียดของแต่ละ Test Suite
