@@ -44,13 +44,14 @@ public class Rational {
     }
 
     public void subtract(Rational x) {
-        numerator = (numerator * x.denominator) + (x.numerator * denominator);
+        numerator = (numerator * x.denominator) - (x.numerator * denominator); //new
         denominator = denominator * x.denominator;
         simplestForm();
     }
 
     public void multiply(Rational x) {
-        numerator = (numerator * x.denominator) * (x.numerator * numerator);
+        //numerator = (numerator * x.denominator) * (x.numerator * denominator);
+        numerator = numerator * x.numerator; //new
         denominator = denominator * x.denominator;
         simplestForm();
     }
